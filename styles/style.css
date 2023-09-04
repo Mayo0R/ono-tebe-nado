@@ -9,7 +9,6 @@ header {
 
 .header {
   display: flex;
-  justify-content: left;
   align-items: center;
   width: 1340px;
   height: 109px;
@@ -24,8 +23,9 @@ header {
 
 .header__menu {
   display: flex;
-  justify-content: center;
-  width: 439px;
+  flex-wrap: nowrap;
+  gap: 0px 33px;
+  width: 410px;
   margin-right: 209px;
   color: #000;
   font-family: Raleway;
@@ -36,14 +36,10 @@ header {
 }
 
 .header__links-list_1 {
-  display: flex;
-  gap: 0px 9px;
   list-style-type: none;
 }
 
 .header__links-list_2 {
-  display: flex;
-  gap: 0px 25.5px;
   list-style-type: circle;
 }
 
@@ -55,6 +51,7 @@ header {
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
+  padding-left: 10px;
 }
 
 .header_address {
