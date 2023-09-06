@@ -354,6 +354,7 @@ footer {
   grid-template-rows: 48px 49px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 90px;
 }
 
 .footer_address {
