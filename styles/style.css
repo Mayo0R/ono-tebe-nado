@@ -70,17 +70,19 @@ header {
 }
 
 .cover {
+  position: relative;
   width: 100%;
   min-height: 757px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
   position: absolute;
   z-index: 10;
   width: 100%;
-  min-height: 757px;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -221,6 +223,7 @@ header {
 }
 
 .lots__card-list-item {
+  position: relative;
   display: flex;
   width: 430px;
   min-height: 450px;
@@ -233,7 +236,7 @@ header {
   z-index: 10;
   width: 100%;
   max-width: 430px;
-  min-height: 450px;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.6); /*затемнил фон*/
 }
 
