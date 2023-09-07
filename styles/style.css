@@ -215,6 +215,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+  justify-content:space-between;
   padding-left: 50px;/*было 40*/
   padding-right: 50px; /*уменьшить отступы на 10, так как скрол вертикальный съедает пространство*/
 }
