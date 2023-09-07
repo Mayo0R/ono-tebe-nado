@@ -26,7 +26,7 @@ header {
   font-size: 18px;
   font-style: normal;
   line-height: normal;
-  padding-left: 40px;
+  padding-left: 50px;  /*было 40*/
 }
 
 .header__links-list {
@@ -97,7 +97,7 @@ header {
 .aligned-text {
   z-index: 20;
   padding-top: 165px;
-  padding-left: 40px;
+  padding-left: 50px; /*было 40*/
   line-height: 115px;
 }
 
@@ -112,7 +112,7 @@ header {
   z-index: 20;
   text-align: end;
   line-height: 100%;
-  padding-right: 40px;
+  padding-right: 50px; /*было 40*/
   padding-top: 20px;
 }
 
@@ -200,7 +200,7 @@ header {
 .lots-link {
   display: flex;
   padding-top: 30px;
-  padding-left: 80px; /*уменьшить отступы на 10, так как скрол вертикальный съедает пространство*/
+  padding-left: 90px; /*уменьшить отступы на 10, так как скрол вертикальный съедает пространство*/
   color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -214,8 +214,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  padding-left: 40px;
-  padding-right: 40px; /*уменьшить отступы на 10, так как скрол вертикальный съедает пространство*/
+  padding-left: 50px;/*было 40*/
+  padding-right: 50px; /*уменьшить отступы на 10, так как скрол вертикальный съедает пространство*/
 }
 
 .lots__card-list-item {
@@ -284,8 +284,8 @@ header {
   grid-template-rows: 100px 47px 100px repeat(auto-fit, minmax(96px, 1fr));
   justify-items: center;
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;/*было 40*/
+  padding-right: 50px;/*было 40*/
   padding-top: 181px;
 }
 
@@ -352,8 +352,8 @@ footer {
   display: grid;
   grid-template-columns: 240px 1fr 149px 1fr 240px;
   grid-template-rows: 48px 49px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;/*было 40*/
+  padding-right: 50px;/*было 40*/
   padding-bottom: 90px;
 }
 
